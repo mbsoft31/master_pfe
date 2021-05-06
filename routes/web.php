@@ -20,3 +20,11 @@ Route::get('/', function () {
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
+
+// admin routes
+
+Route::middleware(['auth:sanctum', 'verified'])->group( function () {
+
+    Route::get('/admin/faculty', \App\View\Faculty\Index::class)->name('admin.faculty.index');
+
+});

@@ -1,0 +1,21 @@
+{
+
+    "Login": "تسجيل الدخول",
+    "Register": "إنشاء حساب",
+    "Log Out": "تسجيل الخروج",
+
+    "Manage Account": "الحساب",
+    "Profile": "الملف الشخصي",
+    "Dashboard": "لوحة القيادة",
+
+    "Faculties": "الكليات",
+    "faculty.name": "اسم الكلية",
+    "faculty.address": "عنوان الكلية",
+    "faculty.phone": "رقم الهاتف",
+
+    "faculty.all-faculties": "الكليات",
+    "faculty.create-new-faculty": "إنشاء كلية جديدة",
+
+    "Cancel": "تراجع",
+    "Save": "حفظ"
+}

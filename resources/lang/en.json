@@ -1,0 +1,12 @@
+{
+
+    "faculty.name": "Name",
+    "faculty.address": "Address",
+    "faculty.phone": "Phone",
+
+    "faculty.all-faculties": "All faculties",
+    "faculty.create-new-faculty": "Create new faculty",
+
+    "Cancel": "Cancel",
+    "Save": "Save"
+}
