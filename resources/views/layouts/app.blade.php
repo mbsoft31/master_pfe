@@ -13,6 +13,19 @@
         <!-- Styles -->
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 
+        @if(app()->isLocale('ar'))
+            <style>
+                * {
+                    direction: rtl;
+                    --tw-space-x-reverse: 1 !important;
+                }
+
+                body {
+                    font-family: 'Amiri', serif;
+                }
+            </style>
+        @endif
+
         @livewireStyles
 
         <!-- Scripts -->

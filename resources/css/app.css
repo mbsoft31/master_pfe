@@ -1,3 +1,22 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+
+.dropdown-menu {
+    min-width: 10rem;
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+.btn {
+    @apply block px-3 py-1.5 text-base tracking-normal leading-normal text-center whitespace-nowrap align-middle cursor-pointer  rounded-md;
+}
+
+/* transitions : color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out */
+/*
+$input-btn-padding-y:         .375rem !default; py-1.5
+$input-btn-padding-x:         .75rem !default;  px-3
+*/
