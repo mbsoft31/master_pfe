@@ -25,7 +25,7 @@ class FacultyTest extends TestCase
     {
         $data = [
             "name" => "Sci-Tech",
-            "description" => "bla bla",
+            "address" => "bla bla",
             "phone" => "0666666666",
         ];
 
@@ -44,14 +44,14 @@ class FacultyTest extends TestCase
     {
         $data = [
             "name" => "Sci-Tech",
-            "description" => "bla bla",
+            "address" => "bla bla",
             "phone" => "0666666666",
         ];
         $faculty = (new CreateFaculty)->create($data);
 
         $input = [
             "name" => "Science and Technology",
-            "description" => "bla bla",
+            "address" => "bla bla",
             "phone" => "0666666655",
         ];
 
@@ -73,7 +73,7 @@ class FacultyTest extends TestCase
     {
         $data = [
             "name" => "Sci-Tech",
-            "description" => "bla bla",
+            "address" => "bla bla",
             "phone" => "0666666666",
         ];
         $faculty = (new CreateFaculty)->create($data);
