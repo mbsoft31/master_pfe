@@ -6,12 +6,13 @@ namespace App\Actions\Faculty;
 
 use App\Models\Faculty;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Validation\Rule;
 use Illuminate\Validation\ValidationException;
 
 class UpdateFaculty
 {
     protected $rules=[
-        'name' => ['required', 'string', 'min:3', 'unique:faculties,name'],
+        'name' => ['required', 'string', 'min:3'],
         'address' => ['nullable', 'string'],
         'phone' => ['nullable', 'min:10', 'max:12']
     ];
@@ -24,8 +25,7 @@ class UpdateFaculty
      */
     public function update(Faculty $faculty, array $inputs)
     {
-        $validated_data = $this->validate($inputs);
-        return $faculty->update($validated_data);
+        return $faculty->update($inputs);
     }
 
     /**

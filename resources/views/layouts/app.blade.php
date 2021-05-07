@@ -26,6 +26,15 @@
             </style>
         @endif
 
+        <style>
+            .text-start {
+                text-align: start;
+            }
+            .text-end {
+                text-align: end;
+            }
+        </style>
+
         @livewireStyles
 
         <!-- Scripts -->
