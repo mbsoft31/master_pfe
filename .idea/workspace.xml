@@ -20,18 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cf699d8-d7e0-456a-b16a-807fad543ccc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/lang/ar.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/css/components.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/components.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Actions/Faculty/CreateFaculty.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Actions/Faculty/CreateFaculty.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/View/Faculty/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/View/Faculty/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_05_06_223226_create_faculties_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_05_06_223226_create_faculties_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/survey/create-form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/faculty/create-form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/faculty/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/faculty/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/navigation-menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/navigation-menu.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +177,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/lang" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/css" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -185,6 +186,7 @@
       <recent name="D:\mouadh\Desktop\code\pfe\resources\views\components\faculty" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mouadh\Desktop\code\pfe\resources\css" />
       <recent name="D:\mouadh\Desktop\code\pfe\resources\lang" />
       <recent name="D:\mouadh\Desktop\code\pfe\resources\views" />
     </key>
@@ -203,7 +205,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1620337834405</updated>
-      <workItem from="1620337835499" duration="6620000" />
+      <workItem from="1620337835499" duration="8318000" />
     </task>
     <servers />
   </component>
@@ -226,22 +228,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="172" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.834@0.0.1536.834" timestamp="1620341330507" />
-    <state width="1493" height="214" key="GridCell.Tab.0.bottom" timestamp="1620337850236">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1620345886377">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1620337850236" />
-    <state width="1493" height="214" key="GridCell.Tab.0.center" timestamp="1620337850236">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1620345886377" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1620345886377">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1620337850236" />
-    <state width="1493" height="214" key="GridCell.Tab.0.left" timestamp="1620337850236">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1620345886377" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1620345886377">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1620337850236" />
-    <state width="1493" height="214" key="GridCell.Tab.0.right" timestamp="1620337850236">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1620345886377" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1620345886377">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1620337850236" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1620345886377" />
     <state x="543" y="140" key="NewPhpClassDialog" timestamp="1620341664787">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
