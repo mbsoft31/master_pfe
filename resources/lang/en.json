@@ -8,5 +8,15 @@
     "faculty.create-new-faculty": "Create new faculty",
 
     "Cancel": "Cancel",
-    "Save": "Save"
+    "Save": "Save",
+    "Delete": "Delete",
+
+    "Departements": "Departements",
+    "departement.name": "Name",
+    "departement.address": "Address",
+    "departement.phone": "Phone",
+    "departement.faculty_id": "Faculty",
+
+    "departement.all-departements": "Departements",
+    "departement.create-new-departement": "Create new departement"
 }

@@ -26,5 +26,7 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 Route::middleware(['auth:sanctum', 'verified'])->group( function () {
 
     Route::get('/admin/faculty', \App\View\Faculty\Index::class)->name('admin.faculty.index');
+    Route::get('/admin/departement', \App\View\Departement\Index::class)->name('admin.departement.index');
+    Route::get('/admin/sspecialty', \App\View\Specialty\Index::class)->name('admin.specialty.index');
 
 });

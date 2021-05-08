@@ -5,18 +5,14 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-/**
- * @method static create(array $validated_data)
- */
-class Faculty extends Model
+class Departement extends Model
 {
     use HasFactory;
 
     protected $guarded = [];
 
-    public function departements()
+    public function faculty()
     {
-        return $this->hasMany(Departement::class);
+        return $this->belongsTo(Faculty::class);
     }
-
 }

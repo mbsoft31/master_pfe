@@ -19,7 +19,26 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cf699d8-d7e0-456a-b16a-807fad543ccc" name="Default Changelist" comment="" />
+    <list default="true" id="1cf699d8-d7e0-456a-b16a-807fad543ccc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Actions/Departement/CreateDepartement.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Actions/Departement/DeleteDepartement.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Actions/Departement/UpdateDepartement.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Departement.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Specialty.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/View/Departement/Index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/View/Specialty/Index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_05_08_001337_create_departements_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_05_08_001428_create_specialties_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/components/departement/create-form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/departement/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/specialty/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Actions/Faculty/UpdateFaculty.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Actions/Faculty/UpdateFaculty.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ar.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/navigation-menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/navigation-menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -194,7 +213,7 @@
       <option name="presentableId" value="Default" />
       <updated>1620337834405</updated>
       <workItem from="1620337835499" duration="8562000" />
-      <workItem from="1620424488454" duration="5336000" />
+      <workItem from="1620424488454" duration="9247000" />
     </task>
     <servers />
   </component>
@@ -217,10 +236,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="4173" y="832" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1620428502132">
+    <state x="4173" y="832" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1620433194157">
       <screen x="3840" y="680" width="1024" height="738" />
     </state>
-    <state x="4173" y="832" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.834/3840.680.1024.738@3840.680.1024.738" timestamp="1620428502132" />
+    <state x="4173" y="832" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.834/3840.680.1024.738@3840.680.1024.738" timestamp="1620433194157" />
     <state x="499" y="172" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.834@0.0.1536.834" timestamp="1620341330507" />
     <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1620346938873">
       <screen x="0" y="0" width="1536" height="834" />
@@ -238,9 +257,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1620346938873" />
-    <state x="543" y="140" key="NewPhpClassDialog" timestamp="1620341664787">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="4202" y="804" key="NewPhpClassDialog" timestamp="1620433104896">
+      <screen x="3840" y="680" width="1024" height="738" />
     </state>
+    <state x="4202" y="804" key="NewPhpClassDialog/0.0.1536.834/3840.680.1024.738@3840.680.1024.738" timestamp="1620433104896" />
     <state x="543" y="140" key="NewPhpClassDialog/0.0.1536.834@0.0.1536.834" timestamp="1620341664787" />
   </component>
 </project>

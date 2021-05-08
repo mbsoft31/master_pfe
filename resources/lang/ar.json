@@ -17,5 +17,15 @@
     "faculty.create-new-faculty": "إنشاء كلية جديدة",
 
     "Cancel": "تراجع",
-    "Save": "حفظ"
+    "Save": "حفظ",
+    "Delete": "حذف",
+
+    "Departements": "الأقسام",
+    "departement.name": "اسم القسم",
+    "departement.address": "عنوان القسم",
+    "departement.phone": "رقم الهاتف",
+    "departement.faculty_id": "الكلية",
+
+    "departement.all-departements": "الأقسام",
+    "departement.create-new-departement": "إنشاء قسم جديد"
 }
