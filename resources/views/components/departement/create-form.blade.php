@@ -4,7 +4,7 @@
         <div class="divide-y1">
             <x-form.control>
                 <x-input.label for="faculty_id" :value="__('departement.faculty')"/>
-                <x-input.select :types="$faculties" :noneSelected="true" id="faculty_id" wire:model="faculty_id" class="w-full"/>
+                <x-input.select :types="$faculties" :noneSelected="false" id="faculty_id" wire:model="faculty_id" class="w-full"/>
                 <x-input.error for="faculty_id"/>
             </x-form.control>
             <x-form.control>

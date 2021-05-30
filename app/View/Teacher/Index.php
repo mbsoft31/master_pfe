@@ -1,6 +1,6 @@
 <?php
 
-namespace App\View\Specialty;
+namespace App\View\Teacher;
 
 use Livewire\Component;
 
@@ -8,6 +8,6 @@ class Index extends Component
 {
     public function render()
     {
-        return view('specialty.index');
+        return view('teacher.index');
     }
 }

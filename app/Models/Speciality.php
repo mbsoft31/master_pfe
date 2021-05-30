@@ -5,20 +5,20 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Departement extends Model
+class Speciality extends Model
 {
     use HasFactory;
 
     protected $guarded = [];
 
-    public function faculty()
+    public function departement()
     {
-        return $this->belongsTo(Faculty::class);
+        return $this->belongsTo(Departement::class);
     }
 
-    public function specialities(){
+    public function subjects(){
 
-        return $this->hasMany(Specialty::class);
+        return $this->hasMany(Subject::class);
 
     }
 }

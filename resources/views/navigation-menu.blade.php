@@ -15,12 +15,30 @@
                     <x-jet-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-jet-nav-link>
+
                     <x-jet-nav-link href="{{ route('admin.faculty.index') }}" :active="request()->routeIs('admin.faculty.index')">
                         {{ __('Faculties') }}
+
                     </x-jet-nav-link>
+
                     <x-jet-nav-link href="{{ route('admin.departement.index') }}" :active="request()->routeIs('admin.departement.index')">
                         {{ __('Departements') }}
                     </x-jet-nav-link>
+
+
+                    <x-jet-nav-link href="{{ route('admin.speciality.index') }}" :active="request()->routeIs('admin.speciality.index')">
+                        {{ __('Specialities') }}
+                    </x-jet-nav-link>
+
+                    <x-jet-nav-link href="{{ route('admin.subject.index') }}" :active="request()->routeIs('admin.subject.index')">
+                        {{ __('Add_Subject') }}
+                    </x-jet-nav-link>
+                    <x-jet-nav-link href="{{ route('admin.teacher.index') }}" :active="request()->routeIs('admin.teacher.index')">
+                        {{ __('Add_Teacher') }}
+                    </x-jet-nav-link>
+
+
+
                 </div>
             </div>
 

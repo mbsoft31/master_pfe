@@ -30,7 +30,7 @@ class Index extends Component
 
     protected $rules=[
         'faculty_id' => ['required', 'integer', 'exists:faculties,id'],
-        'name' => ['required', 'string', 'min:3', 'unique:faculties,name'],
+        'name' => ['required', 'string', 'min:3', 'unique:departements,name'],
         'address' => ['nullable', 'string'],
         'phone' => ['nullable', 'min:10', 'max:12']
     ];
@@ -106,7 +106,7 @@ class Index extends Component
     {
         $inputs = $this->validate([
             'faculty_id' => ['required', 'integer', 'exists:faculties,id'],
-            'name' => ['required', 'string', 'min:3'],
+            'name' => ['required', 'string', 'min:3', 'unique:departements,name'],
             'address' => ['nullable', 'string'],
             'phone' => ['nullable', 'min:10', 'max:12']
         ]);

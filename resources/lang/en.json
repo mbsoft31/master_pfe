@@ -18,5 +18,24 @@
     "departement.faculty_id": "Faculty",
 
     "departement.all-departements": "Departements",
-    "departement.create-new-departement": "Create new departement"
+    "departement.create-new-departement": "Create new departement",
+    "departement.faculty": "Faculty",
+
+    "Specialities": "Specialities",
+    "speciality.name": "Name",
+    "speciality.degree": "degree" ,
+    "speciality.departement_id": "Departement",
+
+    "speciality.all-specialities": "Specialities",
+    "speciality.create-new-speciality": "Create new speciality",
+    "speciality.departement": "Departement",
+
+
+    "subject.title": "Title",
+    "subject.degree": "Degree",
+    "subject.speciality": "Speciality",
+    "subject.description": "Description",
+    "subject.keywords": "Keywords"
+
 }
+
